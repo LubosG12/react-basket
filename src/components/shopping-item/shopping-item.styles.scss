@@ -1,0 +1,17 @@
+.item {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: dashed 1px black;
+    padding: 2px;
+    
+    .fa-plus {
+        cursor: pointer;
+    }
+
+    .name {
+        margin-left: 10px;
+        margin-right: auto;
+    }
+}

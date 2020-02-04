@@ -1,0 +1,24 @@
+.header {
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(43, 43, 43);
+    position: relative;
+}
+
+.fa-shopping-cart {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    color: white;
+}
+
+.text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 2rem;
+    color: white;
+}

@@ -1,12 +1,19 @@
 .list {
     width: 30vw;
-    height: 70vh;
+    height: 30vh;
     padding: 10px;
 
     .title {
         margin-bottom: 20px;
         font-size: 2rem;
         font-weight: 600;
+    }
+
+    .item-list {
+        padding: 5px;
+        border-bottom: 1px solid black;
+        height: 30vh;
+        overflow-y: scroll;
     }
 
     .container {
